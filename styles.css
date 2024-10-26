@@ -1,0 +1,81 @@
+/* Styles for the body and overall page */
+body {
+    font-family: 'Quicksand', sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styling */
+header {
+    background-color: #222;
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 1em;
+}
+
+/* Hero section */
+#hero {
+    background: url('your-image.jpg') no-repeat center center/cover;
+    color: #fff;
+    padding: 5em 2em;
+    text-align: center;
+}
+
+.cta-button {
+    background-color: #0066cc;
+    color: #fff;
+    padding: 1em 2em;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+}
+
+/* Portfolio styling */
+.portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    justify-content: center;
+    padding: 2em 1em;
+}
+
+.gallery-img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Contact button */
+.contact-button {
+    background-color: #333;
+    color: #fff;
+    padding: 0.8em 2em;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+footer {
+    text-align: center;
+    padding: 2em;
+    background-color: #222;
+    color: #fff;
+}
